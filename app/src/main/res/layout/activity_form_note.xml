@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".FormNoteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORM CATATAN"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etNoteNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:hint="note name"/>
+    <EditText
+        android:id="@+id/etNoteDescriptionEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lines="10"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:hint="note description"/>
+
+    <Button
+        android:id="@+id/btActForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:text="action"/>
+
+</LinearLayout>
